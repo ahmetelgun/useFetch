@@ -1,10 +1,9 @@
 ## useEffect
-
 Fetch hook for React
-
 ### Installation
-
+```
 npm install @ahmetelgun/usefetch
+```
 
 ### Usage
 ```javascript

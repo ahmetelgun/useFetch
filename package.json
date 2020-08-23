@@ -1,6 +1,6 @@
 {
   "name": "@ahmetelgun/usefetch",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Fetch hook for React",
   "main": "useFetch.js",
   "scripts": {

@@ -8,7 +8,7 @@ const useFetch = (url, options) => {
   const [error, setError] = useState(null);
   const [loading, setLoading] = useState(false);
 
-  const callFetch = async (url, options) => {
+  const callFetch = (url, options) => {
     if (data) {
       setData(null);
     }
@@ -24,7 +24,7 @@ const useFetch = (url, options) => {
       setLoading(true);
     }
     let status;
-    await fetch(url, { signal, ...options })
+    fetch(url, { signal, ...options })
       .then((res) => {
         status = res.status;
         return res.json();

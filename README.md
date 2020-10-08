@@ -1,4 +1,4 @@
-## useEffect
+## useFetch
 Fetch hook for React
 ### Installation
 ```

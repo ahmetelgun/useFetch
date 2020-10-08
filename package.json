@@ -1,24 +1,24 @@
 {
-  "name": "@ahmetelgun/usefetch",
-  "version": "0.0.4",
-  "description": "Fetch hook for React",
-  "main": "useFetch.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/ahmetelgun/useFetch.git"
-  },
-  "keywords": [
-    "react",
-    "hook",
-    "fetch"
-  ],
-  "author": "Ahmet Elgun",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/ahmetelgun/useFetch/issues"
-  },
-  "homepage": "https://github.com/ahmetelgun/useFetch#readme"
+    "name": "@ahmetelgun/usefetch",
+    "version": "0.0.5",
+    "description": "Fetch hook for React",
+    "main": "useFetch.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/ahmetelgun/useFetch.git"
+    },
+    "keywords": [
+        "react",
+        "hook",
+        "fetch"
+    ],
+    "author": "Ahmet Elgun",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/ahmetelgun/useFetch/issues"
+    },
+    "homepage": "https://github.com/ahmetelgun/useFetch#readme"
 }

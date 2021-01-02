@@ -10,7 +10,7 @@ npm install @ahmetelgun/usefetch
 import useFetch from "@ahmetelgun/usefetch";
 .
 .
-const [data, loading, error] = useFetch("url");
+const [response, loading, error] = useFetch("url");
 
 if(loading){
     return <div>loading</div>;
@@ -18,8 +18,17 @@ if(loading){
 else if(error){
     return <div>error</div>;
 }
-else if (data){
-    return <div>data</div>
+else if (response){
+    //use response
+}
+```
+
+```javascript
+{ //response schema
+    status: 200,
+    data: {
+        //data
+    }
 }
 ```
 
@@ -27,7 +36,7 @@ else if (data){
 import useFetch from "@ahmetelgun/usefetch";
 .
 .
-const [data, loading, error, callFetch] = useFetch();
+const [response, loading, error, callFetch] = useFetch();
 if(expression){
     callFetch("url")
 }
@@ -50,7 +59,7 @@ const options = {
       'Content-Type': 'application/json'
     }
 }
-const [data, loading, error, callFetch] = useFetch("url", options);
+const [response, loading, error, callFetch] = useFetch("url", options);
 .
 .
 callFetch("url", options /*or different options*/)
